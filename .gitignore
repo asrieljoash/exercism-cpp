@@ -1,1 +1,27 @@
-**/build/
+
+# C++ build output
+build/
+cmake-build-*/
+
+# Compiled files
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.a
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
